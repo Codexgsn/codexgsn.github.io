@@ -1,0 +1,209 @@
+body {
+
+    background-color: rgb(216, 209, 209);
+
+}
+
+.botao {
+
+    background-color: rgb(59, 188, 228);
+    -webkit-text-fill-color: rgb(255, 255, 255);
+
+}
+
+.navbar-brand {
+
+    background-color: rgb(175, 168, 177);
+    border-radius: 20px;
+
+
+
+
+}
+
+.container-fluid {
+
+    background-color: rgb(174, 0, 255);
+    width: 3000px;
+    height: 40px;
+    background-color: #666;
+    border-radius: 0px 20px 20px 0px;
+
+
+
+}
+
+.textogrande {
+
+    text-align: center;
+
+
+    -webkit-text-fill-color: rgb(174, 0, 255);
+    margin: 10px;
+    margin-top: 20px;
+    background-color: #666;
+    position: relative;
+    border-radius: 100px;
+
+
+
+
+}
+
+
+.textopequeno {
+
+    margin: auto;
+    text-align: center;
+    padding: 10px;
+
+
+
+}
+
+ul {
+
+    padding-left: 10px;
+
+}
+
+.video {
+
+    width: auto;
+    height: auto;
+    display: flex;
+    margin: auto;
+    border-radius: 15px;
+    margin-top: 30px;
+
+}
+
+.cor-fundo {
+
+    background-color: rgb(128, 123, 123) !important;
+    margin-top: 600px;
+    border-radius: 20px 20px 0px 0px
+}
+
+
+.footer-fundo {
+
+    border-radius: 40px;
+
+
+}
+
+
+
+.logo {
+
+    width: 40px;
+    height: 40px;
+    background-color: #666;
+    border-radius: 20px 0px 0px 20px;
+}
+
+.navbar {
+
+    height: 40px;
+
+}
+
+.carousel-fotos {
+
+    width: 800px;
+    height: 500px;
+    display: flex;
+    margin: auto;
+    margin-top: 30px;
+
+
+}
+
+.butão-youtube {
+
+    background-color: #666;
+    -webkit-text-fill-color: rgb(255, 123, 0);
+
+}
+
+.cartao1 {
+
+    display: flex;
+    margin-right: auto;
+    text-align: center;
+    position: relative;
+    float: left;
+}
+
+.card {
+
+    display: flex;
+    margin-right: auto;
+    text-align: center;
+    float: left;
+    margin: 40px;
+    border-radius: 40px;
+
+
+
+
+
+
+}
+
+.text-card-cor {
+
+    -webkit-text-fill-color: rgb(135, 1, 197);
+    font-size: 23px;
+    font-family: montserrat;
+
+}
+
+.cartao-video {
+
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    border-radius: 25px;
+
+}
+
+.card-img-top {
+
+    border-radius: 20px;
+
+}
+
+.img-card {
+
+    width: 240px;
+    display: flex;
+    margin: center;
+
+}
+
+.contatos {
+
+    font-size: 35px;
+    -webkit-text-fill-color: chocolate;
+    margin-left: 10px;
+
+}
+
+.foto-contato {
+
+    display: flex;
+    margin: auto;
+    width: 600px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+.pcgamer {
+
+    display: flex;
+    margin: auto;
+    border-radius: 20px;
+
+}
