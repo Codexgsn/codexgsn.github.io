@@ -7,7 +7,7 @@ input {
   outline: none;
 }
 body {
-  background: linear-gradient(180deg, #fe8c00 0%, #f83600 100%);
+  background: linear-gradient(90deg, black 0%, blue 50%, rgb(132, 0, 255) 90%);
   background-size: 100%;
   margin: 0;
   height: 100%;
