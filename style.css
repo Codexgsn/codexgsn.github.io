@@ -1,7 +1,7 @@
 body {
 
-    background-color: rgb(216, 209, 209);
-
+    background: linear-gradient(180deg, black 7%, blue 50%, rgb(132, 0, 255) 90%);
+ 
 }
 
 .botao {
@@ -11,27 +11,6 @@ body {
 
 }
 
-.navbar-brand {
-
-    background-color: rgb(175, 168, 177);
-    border-radius: 20px;
-
-
-
-
-}
-
-.container-fluid {
-
-    background-color: rgb(174, 0, 255);
-    width: 3000px;
-    height: 40px;
-    background-color: #666;
-    border-radius: 0px 20px 20px 0px;
-
-
-
-}
 
 .textogrande {
 
@@ -78,12 +57,8 @@ ul {
 
 }
 
-.cor-fundo {
 
-    background-color: rgb(128, 123, 123) !important;
-    margin-top: 600px;
-    border-radius: 20px 20px 0px 0px
-}
+
 
 
 .footer-fundo {
@@ -94,21 +69,6 @@ ul {
 }
 
 
-
-.logo {
-
-    width: 40px;
-    height: 40px;
-    background-color: #666;
-    border-radius: 20px 0px 0px 20px;
-}
-
-.navbar {
-
-    height: 40px;
-
-}
-
 .carousel-fotos {
 
     width: 800px;
@@ -116,7 +76,6 @@ ul {
     display: flex;
     margin: auto;
     margin-top: 30px;
-
 
 }
 
@@ -127,30 +86,10 @@ ul {
 
 }
 
-.cartao1 {
-
-    display: flex;
-    margin-right: auto;
-    text-align: center;
-    position: relative;
-    float: left;
-}
-
-.card {
-
-    display: flex;
-    margin-right: auto;
-    text-align: center;
-    float: left;
-    margin: 40px;
-    border-radius: 40px;
 
 
 
 
-
-
-}
 
 .text-card-cor {
 
@@ -198,6 +137,7 @@ ul {
     width: 600px;
     height: 500px;
     border-radius: 20px;
+    margin-top: 2.5%;
 }
 
 .pcgamer {
@@ -207,3 +147,201 @@ ul {
     border-radius: 20px;
 
 }
+
+.cadastro {
+
+    margin-top: 12%;
+    background-color: rgb(139, 135, 135);
+
+}
+
+.carrosel-pc {
+
+    margin-top: 5%;
+
+}
+
+.foto-redondo {
+
+    width: 100%;
+    max-width: 160px;
+    aspect-ratio: 1/1;
+    object-fit:cover;
+    border-radius: 50%;
+
+}
+
+.foto2-redondo {
+
+    width: 100%;
+    max-width: 160px;
+    aspect-ratio: 1/1;
+    object-fit:cover;
+    border-radius: 50%;
+
+}
+
+.foto3-redondo {
+
+    width: 100%;
+    max-width: 160px;
+    aspect-ratio: 1/1;
+    object-fit: none;
+    border-radius: 50%;
+
+}
+
+.formulario {
+
+    background-color: #666;
+
+}
+
+.wrapper {
+
+    background-color: #666;
+
+}
+
+.container-cards {
+    display: grid;
+    grid-template-rows: 45%;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-column-gap: 1%;
+    grid-row-gap: 10%;
+}
+
+
+.img-card {
+
+    width: 200px;
+    height: 200px;  
+    display: flex;
+    margin: auto;
+    margin-top: 1px;
+    border-radius: 30px;
+}
+
+.texto-pequeno {
+
+    -webkit-text-fill-color: rgb(0, 189, 0);
+    display: flex;
+    margin-left: 60px;
+
+}
+
+.card-text {
+
+    -webkit-text-fill-color: rgb(0, 189, 0);
+
+}
+
+
+
+.produtos {
+
+    -webkit-text-fill-color: white;
+    margin-left: 40px;
+
+}
+
+.container-cards2 {
+
+    display: grid;
+    grid-template-columns: 23% 23% 23% 23%;
+    grid-template-rows: 40%;
+    margin-top: 8%;
+    grid-column-gap: 1%;
+    grid-row-gap: 1%;
+
+}
+
+.carrosel-venda {
+
+    height: 500px !important;
+
+}
+
+.texto-carroselinicial-grande {
+
+    -webkit-text-fill-color: black;
+
+}
+
+.texto-carroselinicial-pequeno {
+
+    -webkit-text-fill-color: black;
+
+}
+
+.texto-carroselinicial-pequeno2 {
+
+    -webkit-text-fill-color: white;
+
+}
+
+.texto-carroselinicial-pequeno3 {
+
+    -webkit-text-fill-color: white;
+
+}
+
+.img-icon {
+
+    border-radius: 50% !important;
+
+}
+
+.menu {
+
+    
+    
+    margin-right: 77%;
+
+}
+
+.container-navbar {
+
+    background-color: #666;
+
+}
+.navbar {
+
+    padding: 0%;
+
+}
+
+.navbar-sobremim {
+
+    padding: 0%;
+
+}
+
+
+.container-cards-sobremim {
+    grid-template-columns: 40% 40%;
+    grid-template-rows: 20% 20%;
+
+}
+
+.card-img-sobremim {
+    
+    width: 100px;
+    height: 300px;
+
+}
+
+.projeto-text {
+
+    -webkit-text-fill-color: white;
+
+}
+
+.texto-contato {
+
+    -webkit-text-fill-color: white;
+    
+}
+
+
+  
