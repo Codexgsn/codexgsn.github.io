@@ -11,39 +11,31 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg bg-body-tertiary">
-    <img class="logo"
-      src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfggb18-892215c5-2249-45a0-ba8a-1d1469eee071.png/v1/fill/w_894,h_894/jogan_by_jormxdos_dfggb18-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2U4ZGRjNGRhLTIzZGQtNDUwMi1iNjViLTM3OGM5Y2ZlNWVmYVwvZGZnZ2IxOC04OTIyMTVjNS0yMjQ5LTQ1YTAtYmE4YS0xZDE0NjllZWUwNzEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.dufBcxrj-EA6B_RGHEcxIyz-ij0LXxKniXyb7phdXR8"
-      alt="">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Meus videos</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Inicio</a>
-          </li>
-          <li class="nav-item">
-            <a href="bsobre_mim.html" class="nav-link" href="#">Sobre mim</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cMeus_projetos.html">Meus projetos</a>
-          <li class="nav-item">
-            <a class="nav-link" href="econtato.html">Contato</a>
-          </li>
+  <nav class="navbar container-navbar bg-body-tertiary">
+    <div class="container-fluid container-navbar">
+      <a class="navbar-brand container-navbar" href="#">
+        <img src="imagens/gudi-2.jpg" alt="Logo" width="50" height="45" class="d-inline-block img-icon align-text-top">
+         Meus videos
+      </a>
+
+      <div class="dropdown  menu">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+        </button>
+        <ul class="dropdown-menu ">
+            <li><a class="dropdown-item" href="index.html">GuDi</a></li>
+            <li><a class="dropdown-item" href="bsobre_mim.html">Sobre mim</a></li>
+            <li><a class="dropdown-item" href="dMeus videos.html">Meus videos</a></li>
+            <li><a class="dropdown-item" href="cMeus_projetos.html">Meus projetos</a></li>
+            <li><a class="dropdown-item" href="econtato.html">Contato</a></li>
+            <li><a class="dropdown-item" href="validacao.html">validação</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
-  <h1 class="textogrande">Meus videos</h1>
 
-
-  <video width="1080" height="420" controls="'controls" class="video" src="videos/brawstars.mp4"></video>
+  
 
 
   <!--card youtube inicio-->
@@ -51,17 +43,18 @@
   <div class="card cartao cartao-video" style="width: 18rem;">
     <img src="imagens/dinas.jpeg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">TERÇA PROFÉTICA</h5>
-      <p class="card-text">este é um dos cultos da terça profética da minha igreja</p>
+      <h5 class="card-title">Tutorial de montagem de computador</h5>
+      <p class="card-text">Para montar um bom computador você deve estar bem entendido sobre suas peças e a forma que elas encaixam.</p>
       <p class="card-text text-card-cor">youtube live AD Canaã</p>
-      <a href="https://www.youtube.com/watch?v=5X16gIJK1UE" class="btn btn-primary butão-youtube">vamos lá</a>
+      <a class="pc-montagem" href="https://youtu.be/UURtjMluM6w"><button type="button" class="btn btn-outline-info">tutorial
+        de montagem de pc</button></a>
 
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModalCenter">
+      <button type="button" class="btn btn-primary " data-toggle="modal" data-target="#exampleModalCenter">
         vamos entender
       </button>
 
-      
+
 
     </div>
   </div>
@@ -190,26 +183,24 @@
   <!-- Footer -->
 
   <!-- Modal -->
-  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-  aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLongTitle">sobre AD Canaã</h5>
-      </div>
-      <div class="modal-body">
-        <p>Igreja AD Canaã</p>
-        <p>Rua:Jozivam Fragoso Dantas nº100</p>
-        <p>Bairro: São José </p>
+  <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+    aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">sobre AD Canaã</h5>
+        </div>
+        <div class="modal-body">
+          Neste tutorial você irá aprender o básico sobre montagem de computadores e seus componetes, seus encaixes, suas propiedades e de maineira resumida
 
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
-        
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">fechar</button>
+
+        </div>
       </div>
     </div>
   </div>
-</div>
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
