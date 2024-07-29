@@ -8,105 +8,414 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
   <!-- nav bar -->
-  <nav class="navbar navbar-expand-lg">
-    <img class="logo"
-      src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/e8ddc4da-23dd-4502-b65b-378c9cfe5efa/dfggb18-892215c5-2249-45a0-ba8a-1d1469eee071.png/v1/fill/w_894,h_894/jogan_by_jormxdos_dfggb18-pre.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MTI4MCIsInBhdGgiOiJcL2ZcL2U4ZGRjNGRhLTIzZGQtNDUwMi1iNjViLTM3OGM5Y2ZlNWVmYVwvZGZnZ2IxOC04OTIyMTVjNS0yMjQ5LTQ1YTAtYmE4YS0xZDE0NjllZWUwNzEucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.dufBcxrj-EA6B_RGHEcxIyz-ij0LXxKniXyb7phdXR8"
-      alt="">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Inicio</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNav">
-        <ul class="navbar-nav">
-          </li>
-          <li class="nav-item">
-            <a href="bsobre_mim.html" class="nav-link" href="#">Sobre mim</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="cMeus_projetos.html">Meus projetos</a>
-          <li class="nav-item">
-            <a class="nav-link" href="dMeus videos.html">Meus videos</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="econtato.html">Contato</a>
-            <li class="nav-item">
-              <a class="nav-link" href="validacao.html">validação</a>
-            </li>
-          </li>
+  
+  <nav class="navbar container-navbar bg-body-tertiary">
+    <div class="container-fluid container-navbar">
+      <a class="navbar-brand container-navbar" href="#">
+        <img src="imagens/gudi-2.jpg" alt="Logo" width="50" height="45" class="d-inline-block img-icon align-text-top">
+         GuDi
+      </a>
+
+      <div class="dropdown menu">
+        <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+          Menu
+        </button>
+        <ul class="dropdown-menu ">
+            <li><a class="dropdown-item" href="bsobre_mim.html">Sobre mim</a></li>
+            <li><a class="dropdown-item" href="dMeus videos.html">Meus videos</a></li>
+            <li><a class="dropdown-item" href="cMeus_projetos.html">Meus projetos</a></li>
+            <li><a class="dropdown-item" href="econtato.html">Contato</a></li>
+            <li><a class="dropdown-item" href="validacao.html">validação</a></li>
         </ul>
       </div>
     </div>
   </nav>
+ 
+      
   <!-- nav bar fim -->
 
-  <h1 class="textogrande">inicio</h1>
+  <br><br><br><br>
 
-  <p class="textopequeno"></p>
-  <ul>
-    <li>Meu nome é dinarte silva de oliveira neto, 16 anos, comprometido </li>
+  <div class="">
 
-  </ul>
-
-
-  <!-- começo carousel -->
-
-  <div id="carouselExampleCaptions" class="carousel slide carousel-fotos">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-        aria-current="true" aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-        aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-        aria-label="Slide 3"></button>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner carrosel-venda">
+        <div class="carousel-item active carrosel-venda">
+          <img
+            src="imagens/pc-aqui.png"
+            class="d-block w-100 carrosel-venda" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="texto-carroselinicial-grande">aqui você pode tudo!</h5>
+            <p class="texto-carroselinicial-pequeno">temos os melhores preços do mercado!</p>
+          </div>
+        </div>
+        <div class="carousel-item carrosel-venda">
+          <img
+            src="https://images.kabum.com.br/produtos/fotos/sync_mirakl/509528/PC-Gamer-Completo-Intel-Core-I5-16GB-RAM-SSD-256GB-Windows-10-Kit-Gamer-Monitor-20-Polegadas_1700489890_gg.jpg"
+            class="d-block w-100 carrosel-venda" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="texto-carroselinicial-grande2">Confiabilidade</h5>
+            <p class="texto-carroselinicial-pequeno2">Aqui tem o que você precisa</p>
+          </div>
+        </div>
+        <div class="carousel-item carrosel-venda">
+          <img src="https://p2.trrsf.com/image/fget/cf/774/0/images.terra.com/2023/04/21/pc-gamer-thumb-ts56rack6f6u.jpg" class="d-block w-100 carrosel-venda" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+            <h5 class="texto-carroselinicial-grande3">quer ter um setup lindo?</h5>
+            <p class="texto-carroselinicial-pequeno3">então você está no lugar certo.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev"> 
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="imagens/dinas.jpeg" class="d-block w-100" alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>minha foto</h5>
-          <p>está é uma foto minha </p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://th.bing.com/th/id/OLC.vSG3dk7E0eZ0Dw480x360?&rs=1&pid=ImgDetMain" class="d-block w-100"
-          alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Second slide label</h5>
-          <p></p>
-        </div>
-      </div>
-      <div class="carousel-item">
-        <img src="https://avatars.worldcubeassociation.org/uploads/user/avatar/2021NETO01/1663457517.png  "
-          class="d-block w-100 " alt="...">
-        <div class="carousel-caption d-none d-md-block">
-          <h5>Third slide label</h5>
-          <p>Some representative placeholder content for the third slide.</p>
-        </div>
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
+
+
   </div>
 
-  <!-- fim carousel -->
+  <br><br><br>
+
+  <h1 class="produtos">PRODDUTOS</h1>
+
+  <div class="container-cards">
+
+    <!-- card loja -->
+
+    <div>
+      <div class="card card-1" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/I/51gRv8z+K6L._AC_UL320_.jpg" class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">PROCESSADOR AMD RYZEN 7 5700X, 8-CORE, 16-THREADS, 3.4GHZ (4.6GHZ TURBO), CACHE 36MB,
+            AM4</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 1.149,99</h3>
+          <a href="https://www.pichau.com.br/processador-amd-ryzen-7-5700x-8-core-16-threads-3-4ghz-4-6ghz-turbo-cache-36mb-am4-100-100000926wof"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-2" style="width: 18rem;">
+        <img src="https://m.media-amazon.com/images/I/81QyMksmunL._AC_SX679_.jpg" class="img-card" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Placa Mãe Gigabyte B550M AORUS Elite, Chipset B550, AMD AM4, mATX, DDR4</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 732,80</h3>
+          <a href="#" class="btn btn-primary">vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-3" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/m/c/mcr-lmnrgb-2x8gb.jpg"
+          class="img-card" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Placa Mãe Gigabyte B550M AORUS Elite, Chipset B550, AMD AM4, mATX, DDR4</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 274,99</h3>
+          <a href="https://www.pichau.com.br/memoria-mancer-lumina-rgb-16gb-2x8gb-ddr4-3200mhz-c16-preta-mcr-lmnrgb-2x8gb"
+            class="btn btn-primary">vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-4" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/3/0/306-7zp2b39-ce04.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">FONTE MSI MAG A650BN, 650W, 80 PLUS BRONZE, PRETO, 306-7ZP2B39-CE0</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 300,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-5" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/c/g/cgw1adrh001cb0x3_1.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">GABINETE GAMER K-MEX CG-W1AD AQUARIO SPACEZ, MINI-TOWER, LATERAL DE VIDRO, BRANCO,
+            CGW1ADRH001CB0X</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 279,99</h3>
+          <a href="https://www.pichau.com.br/gabinete-gamer-k-mex-cg-w1ad-aquario-spacez-mini-tower-lateral-de-vidro-branco-cgw1adrh001cb0x"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-6" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/n/4/n40702-126xx-183052v.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">PLACA DE VIDEO INNO3D GEFORCE RTX 4070 TWIN X2 OC WHITE, 12GB, GDDR6X, 192-BIT,
+            N40702-126XX-183052V</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 3799,99</h3>
+          <a href="https://www.pichau.com.br/placa-de-video-inno3d-geforce-rtx-4070-twin-x2-oc-white-12gb-gddr6x-192-bit-n40702-126xx-183052v"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
 
 
+
+    <div>
+      <div class="card card-7" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/l/n/lnm620x001t-rnnnu3.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD LEXAR NM620, 1TB, M.2 2280, PCIE NVME, LEITURA 3300 MB/S, GRAVACAO 3000 MB/S,
+            LNM620X001T-RNNNU</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 419,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-8" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/s/asu650ss-120gt-r1585303.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD ADATA ULTIMATE SU650 120GB 2.5" 3D NAND SATA III, ASU650SS-120GT-R</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 99,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container-cards2">
+    <div>
+      <div class="card card-9" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/s/s/ssd25py2561.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD PCYES PY256, 256GB, 2.5, SATA III 6GB/S, LEITURA 550MB/S, GRAVACAO 400MB/S,
+            SSD25PY256</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 159,99</h3>
+          <a href="https://www.pichau.com.br/ssd-pcyes-py256-256gb-2-5-sata-iii-6gb-s-leitura-550mb-s-gravacao-400mb-s-ssd25py256"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-10" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/v/c/vcg40608tfxxpb11.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">PLACA DE VIDEO PNY GEFORCE RTX 4060 GAMING VERTO, 8GB, GDDR6, 128-BIT, VCG40608TFXXPB1
+          </h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 2.159,99</h3>
+          <a href="https://www.pichau.com.br/placa-de-video-pny-geforce-rtx-4060-gaming-verto-8gb-gddr6-128-bit-vcg40608tfxxpb1"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-11" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/x/bx8071514400f.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">PROCESSADOR INTEL CORE I5-14400F, 10-CORE, 16-THREADS, 3.5GHZ (4.7GHZ TURBO), CACHE
+            20MB, LGA1700, BX8071514400F</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 1.469,99</h3>
+          <a href="https://www.pichau.com.br/processador-intel-core-i5-14400f-10-core-16-threads-3-5ghz-4-7ghz-turbo-cache-20mb-lga1700-bx8071514400f"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-12" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/6/b660m-phantom-gaming3.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">PLACA MAE ASROCK B660M PHANTOM GAMING 4, DDR4, SOCKET LGA1700, M-ATX, CHIPSET INTEL
+            B660, B660M-PHANTOM-GAMING</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 769,99</h3>
+          <a href="https://www.pichau.com.br/placa-mae-asrock-b660m-phantom-gaming-4-ddr4-socket-lga1700-m-atx-chipset-intel-b660-b660m-phantom-gaming"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-13" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/b/6/b660mx-e.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">PLACA MAE BIOSTAR B660M, DDR4, SOCKET LGA1700, M-ATX, CHIPSET INTEL B660, B660MX-E</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 599,99</h3>
+          <a href="https://www.pichau.com.br/placa-mae-biostar-b660m-ddr4-socket-lga1700-m-atx-chipset-intel-b660-b660mx-e"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-14" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/s/asu650ss-120gt-r1585303.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD ADATA ULTIMATE SU650 120GB 2.5" 3D NAND SATA III, ASU650SS-120GT-R</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 99,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-15" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/s/asu650ss-120gt-r1585303.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD ADATA ULTIMATE SU650 120GB 2.5" 3D NAND SATA III, ASU650SS-120GT-R</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 99,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-16" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/s/asu650ss-120gt-r1585303.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD ADATA ULTIMATE SU650 120GB 2.5" 3D NAND SATA III, ASU650SS-120GT-R</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 99,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-17" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/s/asu650ss-120gt-r1585303.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD ADATA ULTIMATE SU650 120GB 2.5" 3D NAND SATA III, ASU650SS-120GT-R</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 99,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-18" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/s/asu650ss-120gt-r1585303.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD ADATA ULTIMATE SU650 120GB 2.5" 3D NAND SATA III, ASU650SS-120GT-R</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 99,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-19" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/s/asu650ss-120gt-r1585303.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD ADATA ULTIMATE SU650 120GB 2.5" 3D NAND SATA III, ASU650SS-120GT-R</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 99,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+    <div>
+      <div class="card card-20" style="width: 18rem;">
+        <img
+          src="https://media.pichau.com.br/media/catalog/product/cache/2f958555330323e505eba7ce930bdf27/a/s/asu650ss-120gt-r1585303.jpg"
+          class="img-card" alt="">
+        <div class="card-body">
+          <h5 class="card-title">SSD ADATA ULTIMATE SU650 120GB 2.5" 3D NAND SATA III, ASU650SS-120GT-R</h5>
+          <p class="texto-pequeno">à vista</p>
+          <h3 class="card-text">R$ 99,99</h3>
+          <a href="https://www.pichau.com.br/fonte-msi-mag-a650bn-650w-80-plus-bronze-preto-306-7zp2b39-ce0"
+            class="btn btn-primary">Vamos lá</a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</div>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
 
 
   <!-- Footer -->
-  <footer class="text-center cor-fundo text-lg-start bg-body-tertiary text-muted">
+  <footer class="text-center text-lg-start cor-fundo bg-body-tertiary text-muted">
     <!-- Section: Social media -->
     <section class="d-flex justify-content-center cor-fundo justify-content-lg-between p-4 border-bottom">
       <!-- Left -->
@@ -225,22 +534,9 @@
   </footer>
   <!-- Footer -->
 
-
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
     crossorigin="anonymous"></script>
-
-  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-    crossorigin="anonymous"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-    crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
