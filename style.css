@@ -343,7 +343,7 @@ ul {
     
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) {
             .container-cards {
                 flex-direction: column;
             }
